@@ -10,31 +10,10 @@ product_rating = []
 product_review = []
 
 
-# for i in range(1, 11):
-#     n = 1
-#     if
+for i in range(1, 11):
+    n = 1
+    if
 
-# for i in range(1, 11):
-#     url = "https://www.flipkart.com/search?q=mobiles+under+50000&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&page="+str(i)
-#
-#     headers = {
-#         "authority": "www.google.com",
-#         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-#         "accept-language": "en-US,en;q=0.9",
-#         "cache-control": "max-age=0",
-#         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
-#         # add more headers as needed
-#     }
-#
-#     # set headers
-#     response = requests.get(url, headers=headers)
-#
-#     # print response
-#     # print(response)
-#
-#     soup = BeautifulSoup(response.text, "lxml")
-#     # print(soup)
-#
 #     np = soup.find("a", class_ = "cn++Ap A1msZJ").get("href")
 #     print("https://www.flipkart.com"+np)
 
